@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/footerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pull_foot_height"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_footer_label"
+            style="@style/white_tv"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/pull_gap"
+            android:text="@string/pull_loading" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/pull_icon_gap"
+            android:layout_toLeftOf="@id/tv_footer_label">
+
+            <ImageView
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/load_progress"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/loadArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/indicator_arrow_upon" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

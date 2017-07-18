@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 专用 -->
+<com.violet.library.views.LoadStatusBox xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loadStatusBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:clickable="true"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/loadProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.violet.library.views.ProgressWheel
+            android:id="@+id/proWheel"
+            android:layout_width="@dimen/progress_size"
+            android:layout_height="@dimen/progress_size"
+            app:matProg_barColor="@color/mat_progress"/>
+
+        <TextView
+            style="@style/label_main"
+            android:layout_marginTop="10dp"
+            android:text="@string/loading"
+            android:textColor="#c3c3c3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loadErrorBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/icon_error" />
+
+        <TextView
+            android:id="@+id/loadErrorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/load_fail"
+            android:textColor="@color/txt_minor"
+            android:textSize="@dimen/txt_size_14" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/emptyView"
+        layout="@layout/empty_layout" />
+
+</com.violet.library.views.LoadStatusBox>

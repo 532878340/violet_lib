@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/headerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pull_head_height"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/lyLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/tv_header_label"
+                style="@style/white_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/pull_gap"
+                android:text="@string/pull_down_text" />
+
+            <TextView
+                android:id="@+id/tv_update_label"
+                style="@style/white_tv"
+                android:layout_below="@id/tv_header_label"
+                android:text="@string/pull_down_update_time" />
+
+            <TextView
+                android:id="@+id/tv_time_label"
+                style="@style/white_tv"
+                android:layout_below="@id/tv_header_label"
+                android:layout_marginLeft="@dimen/pull_gap"
+                android:layout_toRightOf="@id/tv_update_label"
+                android:text="" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/pull_icon_gap"
+            android:layout_toLeftOf="@id/lyLabel"
+            android:src="@drawable/load_progress"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/loadArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/pull_icon_gap"
+            android:layout_toLeftOf="@id/lyLabel"
+            android:src="@drawable/indicator_arrow"/>
+    </RelativeLayout>
+</RelativeLayout>

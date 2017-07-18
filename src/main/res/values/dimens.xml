@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 宽高尺寸 -->
+    <!-- title bar高度 -->
+    <dimen name="titlebar_height">50dp</dimen>
+    <!-- title 文本宽度 -->
+    <dimen name="title_width">250dp</dimen>
+    <!-- 通用Padding值 -->
+    <dimen name="normal_padding">10dp</dimen>
+    <!-- title Padding值 -->
+    <dimen name="title_padding">15dp</dimen>
+    <!-- 加载进度条宽高 -->
+    <dimen name="progress_size">40dp</dimen>
+    <!-- 状态栏padding -->
+    <dimen name="toolbar_padding_top">0dp</dimen>
+
+    <!-- 文本大小尺寸 -->
+    <!-- 文本大小12sp -->
+    <dimen name="txt_size_12">12sp</dimen>
+    <!-- 文本大小13sp -->
+    <dimen name="txt_size_13">13sp</dimen>
+    <!-- 文本大小14sp -->
+    <dimen name="txt_size_14">14sp</dimen>
+    <!-- 文本大小15sp -->
+    <dimen name="txt_size_15">15sp</dimen>
+    <!-- 文本大小16sp -->
+    <dimen name="txt_size_16">16sp</dimen>
+    <!-- 文本大小17sp -->
+    <dimen name="txt_size_17">17sp</dimen>
+    <!-- 文本大小18sp -->
+    <dimen name="txt_size_18">18sp</dimen>
+
+    <!-- 圆角大小 -->
+    <dimen name="radius">2dp</dimen>
+
+    <!-- label控件高度 -->
+    <dimen name="label_row_height">50dp</dimen>
+    <!-- LabelEditRow控件label的最小宽度-->
+    <dimen name="label_edit_min_width">60dp</dimen>
+</resources>

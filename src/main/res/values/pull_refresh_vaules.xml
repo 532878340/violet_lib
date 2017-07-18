@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- strings -->
+    <string name="pull_no_more_msg">已经到底啦</string>
+    <string name="pull_up_text">查看更多</string>
+    <string name="pull_down_text">下拉刷新</string>
+    <string name="pull_release_text">释放立即刷新</string>
+    <string name="pull_down_update_time">最近更新: </string>
+    <string name="pull_refreshing">正在刷新...</string>
+    <string name="pull_loading">正在加载更多...</string>
+    <string name="pull_release_load">释放加载更多</string>
+    <string name="pull_succ">刷新成功</string>
+
+    <!-- dimens -->
+    <dimen name="pull_head_height">60dp</dimen>
+    <dimen name="pull_foot_height">50dp</dimen>
+    <dimen name="pull_icon_gap">40dp</dimen>
+    <dimen name="pull_icon_size">30dp</dimen>
+    <dimen name="pull_gap">5dp</dimen>
+
+    <!-- styles -->
+    <style name="white_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/txt_light</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

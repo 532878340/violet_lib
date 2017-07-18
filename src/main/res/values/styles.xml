@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主名称文本相关样式 -->
+    <style name="label_main">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/txt_main</item>
+        <item name="android:textColorHint">@color/txt_hint</item>
+        <item name="android:drawablePadding">@dimen/normal_padding</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="label_main_13sp" parent="label_main">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="label_main_14sp" parent="label_main">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="label_main_15sp" parent="label_main">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="label_main_16sp" parent="label_main">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 次要文字相关样式 -->
+    <style name="label_minor" parent="label_main">
+        <item name="android:textColor">@color/txt_minor</item>
+    </style>
+
+    <style name="label_minor_12sp" parent="label_minor">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="label_minor_13sp" parent="label_minor">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="label_minor_14sp" parent="label_minor">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="label_minor_15sp" parent="label_minor">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="label_minor_16sp" parent="label_minor">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 淡色文字相关样式 -->
+    <style name="label_light" parent="label_main">
+        <item name="android:textColor">@color/txt_light</item>
+    </style>
+
+    <style name="label_light_12sp" parent="label_light">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="label_light_13sp" parent="label_light">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="label_light_14sp" parent="label_light">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="label_light_15sp" parent="label_light">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="label_light_16sp" parent="label_light">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 水平线样式 -->
+    <style name="horizontal_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <!-- 垂直线样式 -->
+    <style name="vertical_line">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <!-- 水平虚线 -->
+    <style name="horizontal_dash">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@drawable/ht_dash_line</item>
+        <item name="android:layerType">software</item>
+    </style>
+
+    <style name="MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WidthFill">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="HeightFill">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WeightOne" parent="MatchParent">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="WidthWeightOne" parent="WidthFill">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="HeightWeightOne" parent="HeightFill">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- 值文本样式 -->
+    <style name="jx_value">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/value_text</item>
+        <item name="android:drawablePadding">@dimen/normal_padding</item>
+    </style>
+
+    <style name="jx_edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/txt_main</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColorHint">@color/jx_text_hint</item>
+    </style>
+
+
+
+
+</resources>

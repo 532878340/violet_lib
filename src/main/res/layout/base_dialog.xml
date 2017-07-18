@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/radius_white"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        style="@style/WrapContent"
+        android:layout_centerHorizontal="true"
+        android:text="@string/msg_promote"
+        android:textColor="@color/txt_main"
+        android:textSize="@dimen/txt_size_16" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        style="@style/WidthFill"
+        android:layout_below="@id/dialogTitle"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvContent"
+            style="@style/WrapContent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="这个是标题我发布了一个内容我发布了一个内容我发布了一个内容我发布了一个内容我发布了一个内容"
+            android:textColor="@color/txt_minor"
+            android:textSize="@dimen/txt_size_16" />
+    </RelativeLayout>
+
+    <View
+        android:id="@id/rela1"
+        style="@style/horizontal_line"
+        android:layout_below="@id/content"
+        android:layout_marginTop="15dp" />
+
+    <LinearLayout
+        style="@style/WidthFill"
+        android:layout_height="@dimen/progress_size"
+        android:layout_below="@id/rela1">
+
+        <TextView
+            android:id="@+id/tvNagetive"
+            style="@style/WeightOne"
+            android:background="@drawable/radius_left"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/txt_minor" />
+
+        <View style="@style/vertical_line" android:id="@+id/line"/>
+
+        <TextView
+            android:id="@+id/tvPositive"
+            style="@style/WeightOne"
+            android:background="@drawable/radius_right"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/txt_minor" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 项目主色调 -->
+    <color name="project_normal">#ababab</color>
+    <!-- 背景主色调 -->
+    <color name="main_bg">#F2F1F0</color>
+    <!-- 状态栏颜色 -->
+    <color name="status_bar">@color/project_normal</color>
+
+    <!-- 标题栏颜色 -->
+    <color name="title_color">@color/status_bar</color>
+    <!-- 通用文本颜色 深灰 -->
+    <color name="txt_main">#333</color>
+    <!-- 通用文本颜色 常用灰 -->
+    <color name="txt_minor">#666</color>
+    <!-- 通用文本颜色 淡灰 -->
+    <color name="txt_light">#999</color>
+    <!-- 文本hint颜色 -->
+    <color name="txt_hint">#cccccc</color>
+    <!-- 浅灰色 -->
+    <color name="light_gray">#cfcfcf</color>
+    <!-- 分割线颜色 -->
+    <color name="divider">#dfdfdf</color>
+    <!-- 值文本主色 -->
+    <color name="value_text">#8a8a8a</color>
+    <!-- 文本hint颜色 -->
+    <color name="jx_text_hint">#cccccc</color>
+
+    <!-- 加载进度条颜色 -->
+    <color name="mat_progress">@color/default_circle_indicator_page_color</color>
+    <!-- item按下的颜色 -->
+    <color name="item_pressed">#eeeeee</color>
+    <!-- 主前景色 -->
+    <color name="main_fore">#F2F1F0</color>
+
+    <!--############################### page indicator ####################################-->
+    <!-- 是否居中显示 -->
+    <bool name="default_circle_indicator_centered">true</bool>
+    <!-- 选中时的颜色 -->
+    <color name="default_circle_indicator_fill_color">#FFFFFF</color>
+    <!-- 未选中时的颜色 -->
+    <color name="default_circle_indicator_page_color">#E93333</color>
+    <!-- E93333 -->
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <!-- 圆点的半径大小 -->
+    <dimen name="default_circle_indicator_radius">2.5dip</dimen>
+    <!-- 选择false时会有滑动动画 -->
+    <bool name="default_circle_indicator_snap">false</bool>
+    <!-- 未选中时周围圈的颜色 -->
+    <color name="default_circle_indicator_stroke_color">#FF0000</color>
+    <!-- FF0000 -->
+    <!-- 未选中时周围圈的宽度 -->
+    <dimen name="default_circle_indicator_stroke_width">0.5dip</dimen>
+</resources>
